@@ -1,5 +1,3 @@
-
-
 public class Person {
    private String id;
     private String name;
@@ -8,7 +6,7 @@ private boolean parent_permision;
     public Person(String id, String name, boolean parent_permision) {
         this.id=id;
         this.parent_permision=true;
-        this.name = "unknown";
+        this.name = name;
         this.age = age;
     }
 
